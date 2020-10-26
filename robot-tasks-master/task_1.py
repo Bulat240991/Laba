@@ -4,11 +4,8 @@ from pyrob.api import *
 
 
 @task
-def example1():
-
-    for i in range(9):
-        move_right()
-        move_down()
+def task_1_1():
+    pass
 
 
 if __name__ == '__main__':
